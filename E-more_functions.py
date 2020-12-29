@@ -25,7 +25,7 @@ def does_nothing(x):
 
 sum1 = test_function(1, 2, 3)
 sum2 = test_function(1, 2, 3, d=5)
-print("\n\n5-more_functions\n")
+print("\n\nE-more_functions\n")
 print(f"sum1 = {sum1}")
 print(f"sum2 = {sum2}")
 does_nothing(sum1)

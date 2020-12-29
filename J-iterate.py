@@ -21,5 +21,6 @@ def val_iter(lst):
 		print(f"val = {val}")
 print("First we create a list, then we iterate through it.")
 print(type(test_list))
+print(f"test_list = {test_list}")
 range_iter(test_list)
 val_iter(test_list)

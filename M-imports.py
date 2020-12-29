@@ -1,7 +1,7 @@
 import numpy as np # 'as' renames it to something more readable
 import pandas as pd
 import matplotlib.pyplot as plt
-import K-objects as immutable
+import K_objects as immutable
 
 """
     You always want to put imports at the top of your program. What you're doing is importing other Python files into your python file.

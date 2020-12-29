@@ -15,12 +15,12 @@ if False == False:
     print(f"\nx = {x}")
 
 if type("string") != int:
-    print("\n!= is the operator logical operator that means 'is not equal to'")
+    print("\n!= is the logical operator that means 'is not equal to'")
 
 if not False:
     print("\nnot False is the same as True")
 
-if not (2==2.0 or 's' == 'S') and True:
-    print("\nneither 2 equals 2.0 nor s equals S. AND ALSO... True is True")
-    print("if either statment to the left or right of and was false, the whole statment would be false")
+if 2==2.0 or 's' == 'S' and True:
+    print("\n2 equals 2.0 BUT s does not equal S.\nSince the logical operator was 'or', only one needed to be True")
+    print("if either statment to the left or right of 'and' was false, the whole statment would be false")
 

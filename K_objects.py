@@ -54,7 +54,7 @@ class Array: # name the object
         print("initializing array...")
 
         # if the user instantiated the array with incorrect values, tell them.
-        if type(values) != list or type(values) != None:
+        if not (type(values) == list or values == None):
             # raise creates an Error. You can even define your own error classes.
             raise ValueError(f"Type(values) = {type(values)}\nInstantiate the array with type list or None")
 
@@ -77,7 +77,7 @@ class Array: # name the object
         else:
             self.__values = []
 
-        self.__length = len(self.values)
+        self.__length = len(self.__values)
 
 
         # what does self mean?

@@ -1,7 +1,7 @@
 def for_loop(n):
 	print("\n\nlet's see what a for loop is\n")
 	print(f"type(range(n)) = {type(range(n))}")
-	print(f"range(n) = {range(n)}")
+	print(f"range({n}) = {range(n)}")
 	for i in range(n): 
 		# I've never used range outside of this purpose, though I'm guessing it has other uses
 		print(i)
