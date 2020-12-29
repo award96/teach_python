@@ -15,6 +15,7 @@ def test_function(a, b, c, d=4):
     """
     result = a + b + c + d
     return result
+    return "once a return happens, the function ends. This string will never be returned"
 
 def does_nothing(x):
       # a function doesn't have to do anything, 
